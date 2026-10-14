@@ -5,7 +5,9 @@ const path = require("path");
 
 const app = express();
 const PORT = process.env.PORT || 10000;
-const API_KEY = process.env.GEMINI_API_KEY;
+
+const API_KEY = "AQ.Ab8RN6LrJeNcufW86uGeLeHSXR5r9JC3yVUBQjAhAXai3NkKRw";
+
 const MODEL = process.env.GEMINI_MODEL || "gemini-3.6-flash";
 
 app.disable("x-powered-by");
